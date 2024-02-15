@@ -1,0 +1,465 @@
+Kryptografia-nauka, ktora zajmuje sie sposobami przekazywania informacji w taki sposob, aby byly one zabezpieczone przed niepowolany dostepem.
+
+Kodowanie-metoda przeobrazenia jawnej formy wiadomosci w forme ukryta w celu uniemozliwienia dostepu do przekazywanych informacji osobom niepowolanym.
+
+Szyfrowanie to forma kryptografii polegajaca na zakodowaniu danych w taki sposob aby staly sie nieczytelne.
+
+W kdowaniu używa się słów kodowych, czyli wyrażeń lub pojednczych słów zastępujących właściwą treść wiadomości. Słowa kodowe znajdują się w książkach kodowych. Np.zamiast powiedzieć:"Nauczyciel widzi jak ściągasz" można powiedzieć:"Kura
+siadła na grzędzie".
+
+Szyfrowanie odbywa się na poziomie pojedynczych znaków lub ich grup, np: zamiast wysłać wyraz informatyka wysyłamy: jńgósnąuzlą
+
+Podpis elektroniczny-to jedyna z metod uwierzytelniania dokumentów elektornicznych zapewniająca im autentyczność i skutki prawne.
+
+Podpis cyfrowy-matematyczne narzędzie wykorzystywane w podpisie elektornicznym umożliwiające identyfikację tożsamości podmiotów przesyłających dokumenty elektroniczne.
+Służy on zapewnieniu funkcji bezpieczńestwa, takich jak:
+-autentyczność pochodzenia dokumentów.
+-niezaprzeczalność, która utrudnia wyparcie się autorstwa lub znajomości treści dokumentu. 
+-integralność pozwalająća na wykrycie nieautoryzowanych modyfikacji dokumentu.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+-W przypadku osob czy istot żywych: 
+zabezpieczenie biometryczne np. rozpoznanie tęczówki oka, linie papilarne, geometria dłoni, lub np. karta elektorniczna, biochip, token.
+-W przypadku dokumentów i wiadmomości elektronicznych techniakami uwierzytelniania są podpis cyfrowy, kod uwierzytelniania wiadomości.
+-W przypadku stosuje techniki oparte na udowodnieniu posiadania hasła(skryptografia symetryczna), lub klucza prywatnego(kryptografia asymetryczna).
+
+Podpis cyfrowy zgodnie z normą ISO 7498-2:1998.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+T: Kim jestem czyli jak bezpiecznie budować wizerunek w sieci. 		
+
+4.11 sprawdzian
+
+RODO jest to rozporządzenie o ochronie danych osobowych wydane w roku 2018 obowiązujące na terenie Uni Europejskiej. Jest to zbiór wytycznych, które wyznaczają zasady na temat należytego chronienia danych osobowych.
+
+Obowiązki pracodawców wobec RODO:
+-obowiązek powołania Instektora Ochrony Danych(IOD)-obowiązek ten dotyczy przedsiębiorstw, w których przetwarzanie danych stanowi podstawę działalności;
+-obowiązek informowania o wycieku danych-RODO nakłada na każdego administratora danych obowiązek poinformowania w ciągu 72 godzin osoby, której dotyczy wyciek, o odkrytym naruszeniu, jeżeli zdarzenie to mogło skutkować trafieniem 
+prywatnych informacji w niepowołane ręce;
+-obowiązek udokumentowania przetwarzania danych osobowych-obowiązek dotyczy prowadzeniu rejestru obejmującego rodzaj przetwarzanych danych, cel i sposób ich przetwarzania oraz informację o osobie odpowiedzialnej za przetwarzanie danych.
+
+Oobwiązki wobec osób fizycznych:
+-prawo dostępu do danych osobowych-konsument ma prawo do udzielenia przez przedsiębiorcę szczegółowych informacji odtyczących posiadania danych oraz sposobu ich przetwarzania;
+-prawo do noszenia danych-każdy konsument możę zadządać przeniesienia swoich danych osobowych do innego podmiotu przetwarzającego;
+-prawo do poprawienia danych osobowych-każdy ma prawo do wprowadzenia korekt do zebranych przez	przedsiębiorstwo danych, które go dotyczą;
+-prawo od bycia zapomnianym.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+T: Przypomnij sobie, czyli podstawy tworzenia algorytmów.
+
+Algorytm - jest to skończony i uporządkowany opis precyzyjnie sformułowanych czynności prowadzących do przetworzenia danych wejściowych na dane wyjściowe.
+
+Sposoby reprezentacji algortymu:
+1.Zapis słowny np.książka kucharska
+2.Lista kroków
+
+Przepis na kawę:
+Dane wejściowe: woda, kubek, kawa, łyżeczka, mleko, czajnik, prąd
+Dane wyjściowe: gorąca kawa z mlekiem 
+a) wlej wodę do czajnika b) ustaW czajnik na gaz c) wsyp kawę do kubka d) zalej kawę wodą e) wlej mleko f) zamieszaj łyżeczką
+
+3.Schemat blokowy np. START, STOP - bloki graniczne	równoległobok - blok wejścia/wyjścia	prostokąt - blok operacyjny	romb - blok decyzyjny	blok funkcji
+
+
+Pseodkod - zbiór instrukcji ,który zapis jest najbardziej zbliżony do języka programowania.
+
+	Jeżeli wykryłeś kartę to
+
+           jeżeli karta prawidłowa to	    
+	   otwórz drzwi
+
+	   w przeciwnym wypadku zapal czerwoną kontrolkę
+
+Drzewo decyzyjne - 
+
+	warunek - T lub N
+
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+T: Algorytmy. Utrwalamy swoją wiedzę.
+
+Ćw 1. Narysuj schemat blokowy obliczający wysokość w trójkącie prostokątnym, jeśli dane są wartości boków a, b, c.	h=a*b/c
+Ćw 2. Narysuj schemat blokowy, który obliczy sumę kolejnych liczb naturalnych n, zaczynając od k. k=5 n=10 (5, 6, 7, 8, 9, 10, 11, 12)
+Ćw 3. Narysuj schemat blokowy, obliczający silnię liczbe n.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+T: C++ czyli uruchamiamy programy C++. 
+
+IDE (Integral Development Environment)
+Zintegrowane srodowisko programistyczne - to program lub zespół programów służących do tworzenia, testowania, modyfikowania i konserwacji programów komputerowych w danym języku.
+Kompilacja - jest to zamiana kodu źródłowego na kod wynikowy (maszynowy). Narzędzia pozwalające na kompilacje programu w języku C++ to między innymi MinGW. 
+Debugger - jest to program zajmujący się sprawdzaniem poprawności składni.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+cout << "Witaj swiecie";
+return 0;
+}
+
+Znak # oznacza dyrektywę preprocesora, która wykonuje się przed kompilacją programu
+Include - dołącz
+Iostream - biblioteka wejścia-wyjścia, zawiera m.in. instrukcje wczytujące i wyświetlające dane w programie.
+using name std; - zastosowanie standardowych przestrzeni nad."Odgrzadzanie" fargmentów programu. Przestrzenia nazw zapisujemy w klamerkach {}.
+int main() - jest to główna funkcja programu. 
+return 0 - jest to informacja dla systemu o poprawnym zakończeniu operacji.
+
+int a, b;
+cout<<"Prosze wprowadzic liczbe a:\n";
+cin >> a;
+cout<<"Prosze wprowadzic liczbe b:";
+cin >> b;
+cout<<"Suma wynosi: " << a+b;
+return 0;
+
+Typy liczbowe  ccałkowite (stałoprzecinkowe)
+
+Liczby rzeczywiste - flout double
+
+Operatory symetryczne - a+b a-b a*b a/b a%b
+
+Operatory relacyjne - a<b	a>b	a>=b	a<=b	a==b
+
+Operatory logiczne -	&& - "oraz"	|| - "lub"	! - "nie"
+
+if(warunek)
+  {instrukcja 1;	
+  instrukcja 2;
+  ............
+  }
+
+if(a>10)
+{cout << a << "jest większe od 1
+
+Druga funkcja warunkowa
+
+Trzecia postać
+if(warunek)
+{instr 1;
+instr 2;}
+else if(warunek)
+{instr 3;
+instr 4;}
+else 
+{instr 5;
+instr6;}
+Pętla w programowaniu 
+wyróżniamy 2 rodzaje pętli :
+
+- iteracyjne(krokowe):for
+
+for(1; 2; 3; 4)
+{ 3;
+}
+1- wyrażenie początkowe.Jest to zmienna pomocnicza służąca do napędzania pętli
+2- jest to warunek powtórzenia instrukcji pętli
+3- instrukcje do wykonania dla spełnionego warunku z punktu 2
+4- zmiana zmiennej pomocnicznej po wykonaniu instrukcji z punktu 3 
+- waunkowe: while, do ... while 
+for(int i = 4; i<=12;i++)
+{cout<< i}
+i++ -> i=i+1
+cout 5
+i++ /i=6
+3.
+10;=13
+13<13 N
+20,18,16...8
+for(int i=20; i>=8
+{cout<< i<<" "}
+if(warunek) cout <<0;
+- waunkowe: while, do ... while 
+________________________________________________________________________________________________________________________________________________________________________________________________________________
+T:Funkcje w programowaniu.
+Funkcja to blok kodu, który działa tylko wtedy, gdy jest wywoływany.
+_______________________________________________________________________________________________________________________________________________________________________________
+T:Przez 1 i siebie, czyli jak zbadac czy dana licza jest liczba pierwsza.
+Sito Eratostenesa-jest to algorytm który wyszukuje liczby pierwsze z przedziału od 2 do n 
+
+1.Określ liczbe naturalna n z przedzialu od 2 do n czyli zakresu badanych liczb
+2. Usun ze zbioru wszystkie liczby wieksze od 2 i podzielne przez 2.
+3. Wybierz najmniejszą z niewykreslonych liczb i usun ze zbioru wszystkie liczby przez nia podzielne oprocz niej samej.
+4. Wykonuj punkt 3. do wyczerpania zasobu liczb z zalozonego przedzialu od 2 do n.
+ Schemat blokowy algorytmu 
+___________________________________________________________________________________________________________________________________________
+T: Która pierwsza czyli jak program bada liczby.
+_________________________________________________________________________________
+T:Powtórzenie wiadomości.
+Dane wyjściowe i wejściowe
+Sposoby przedstawiania algorytmów.(słowny np. przepis)
+Lista kroków
+Schemat blokowy
+Drzewo decyzyjne(korzen itd)
+Pseudo kod.
+Cechy dobrego algorytmu.
+-zdefiniowany
+-skończony 
+- wykonywalny
+-efektywny
+Np narysuj schemat blokowy danego algorytmu.
+Co to jest IDE (zintegrowane środowisko programistyczne)
+5.MinGW (kompilator- narzędzie służące do przeksztalcania danych wejsciowych na wyjsciowe)
+6.Kompilacja-program służący do zamiany kodu napisanego w języku źródłowym na równoważny kod w innym języku(język wynikowy) np maszynowym
+7.Podstawowy szablon(instrukcje programu c++)
+#-dyrektywa pre procesora include <iostream> -biblioteka wejścia-wyjścia525252
+using namespace std; -określenie przestrzeni nazw (stosowanie klamerek)
+int main() - główna funkcja programu
+{
+cout << "Witaj swiecie";
+return 0; - w tym miejscu poprawnie kończymy program
+}
+12. Podstawowe funkcje w c++;
+//komentarz jedno liniowy
+/* wieloliniowy
+cin -wczytywanie danych
+cout - wyswietlanie danych
+a+b
+a-b
+a*b
+a/b
+a%b - dzielenie z resztą
+relacyjne 
+a==b
+a>b
+a!=b
+a=b- przypisanie wartości 
+&& - "oraz"
+|| - " lub"
+instrukcje warunkowe ( trzy  postaci)
+if 
+if else
+if
+else if 
+else
+pętle 4-12
+__________________________________________________________________________________________________________________
+T:Euklides i rekurencja
+rekurencja(rekursja)- jest to odwoływanie się funkcji lub definicji funckji do samej siebie
+___________________________________________________________________________________________________________________________
+sprawdzian
+OD 13 DO 21
+1.Co to jest złozonosc algorytmowa(czasowa+pamięciowa)
+2.Sito erastrotenesa
+3.Analiza algorytmu
+schemat blokowy(narysowany ale nie uzupełniony )
+4.Wyznaczanie reszty z dzielenia
+5.Wyswietlanie n liczb kolejnych
+6.Przeanalizowac kod albo schemat i wysiwetlic wynik
+7.Roznice miedzy algorytmem optymlanym a nie optymalnym
+8.Rekurencja definicja -odwolywanie sie funkcji lub definicji funkcji do samej siebie
+algorytm euklidesa w wersji rekurencyjnej i iteracyjna
+9.Pętle
+10.Dodawanie ułamków skracanie ułamków 
+_____________________________________________________________________________________________________________________
+T: Szyfr Cezara czyli poznajemy szyfr przesuwający
+_____________________________________________________________________________________________________________________
+T:Konspiracja czyli tworzymy własne szyfry
+Klucz - w szyfrowaniu stanowi informację, dzięki której można zaszyfrować lub odszyfrować informację właściwą lub daną 
+Oryginalna informacja -> Klucz symetryczny -> Zaszyfrowana informacja -> Klucz symetryczny -> Oryginalna informacja
+Nadawca                                                                                                  Odbiorca
+W kryptografii symetrycznej wykorzystujemy klucze znane nadawcy i odbiorcy
+Schemat szyfrowania asymetrycznego
+Oryginalna informacja -> Szyfrowanie kluczem publicznym-> Zaszyfrowana informacja -> Odszyfrowanie kluczem prywatnym -> Oryginalna informacja
+Nadawca                                                                                                                            Odbiorca
+W szyfrowaniu asymetrycznym używa się kluczy publicznych i prywatnych. Klucz prywatny pełni funkcję swoistego podpisu nadawcy i powinien byc znany
+tylko jemu.Klucz prywatny i publiczny stanowią unikatową barwę.Funkcję kluczy mogą być łączone, na przykład informacja najpierw jest podpisywana 
+kluczem prywatnym nadawcy, a potem szyfrowanym kluczem publicznym odbiorcy.
+_____________________________________________________________________________________________________________________________________________________________________________
+T: Tworzenie szyfrów przestawieniowych, czyli tworzenie znaków o zmiennej długości.
+"KODY HUFFMANA SĄ ZWIĄZANE Z KOMPRESJĄ PLIKÓW" - szyfr przestawny
+KO DY HU FF MA NA SĄ ZW IĄ ZA NE Z KO MP RE SJ Ą PL IK ÓW
+OK YD UH FF AM AN ĄS WZ ĄI AZ EN Z OK PM ER JS Ą LP KI WÓ
+OKYDUHFFAMANĄSWZAIAZENZOKPMERJSĄLPKIWÓ
+"KTO CZYTA KSIĄŻKI ŻYJE PODWÓJNIE" - szyfr przestawieniowy z tablicą n=5
+KTO C
+ZYTA 
+KSIĄŻ
+KI ŻY
+JE PO
+DWÓJN
+IE
+KZKKJDITYSIEWEOTI  Ó  AĄŻPJ C ŻYON
+____________________________________________________________________________________________________________________________________________________________________________________
+T:Automat wydaje, czyli jak dynamicznie wydawać
+_________________________________________________________________________________________________________________________________________________________________________________________
+T:Co z tym groszem, czyli błąd zaokrąglenia i błąd przybliżenia;
+____________________________________________________________________________________________________________________________________________________
+T:Sprawdzam, czyli porównywanie tekstów i wyszukiwanie wzorca w tekście metodą naiwną
+______________________________________________________________________________________________________________________________________________________
+T:Palindromy
+_________________________________________________________________________________________________________________________________
+T:Przestawianie liter, czyli jak stworzyć anagram
+_______________________________________________________________________________________________________________________________
+T: Odwrotna notacja Polska, czyli zapisujemy wyrażenia arytmetyczne.
+ONP jest algorytmem stosowanym do zamiany zapisu wyrażeń arytmetycznych z postaci infiksowej( z nawiasami) na postać post fiksową
+(beznawiasową)
+Algorytm
+Poniższe czynności wykonuj do momentu wyczerpania wszystkich wyrażeń zapisanych w ONP.
+Jeśli wczytane wyrażenie jest liczbą, to wrzuć ją na stos.
+Jeśli wyrażenie jest operatorem, to
+zdejmij element ze szczytu stosu i zapisz go w zmiennej a
+zdejmij kolejny element ze stosu i zapisz go do zmiennej b
+wykonaj działanie b operator a i wrzuć wynik na stos (zwróć uwagę, że pierwszą liczbą działania jest liczba zapisana w zmiennej b).
+235-3*/
+
+W: 2/((3-5)*3) 
+
+
+S: 2 (3-5)*3
+a-> (3-5)*3
+b-> 2
+b operator a -> 2/(3-5)*3 
+4 3 + 9*12 8 2 +*
+
+W: ((4+3)*9)-(12*(8+2) )
+
+S: 4 3 
+b operator a 
+
+
+W: ((2+9)*2)-(5*(3+5))
+_______________________________________________________________________________________
+T:Szukamy najwiekszego i najmniejszego elementu metodą naiwną
+________________________________________________________________________________________________________
+T:Dziel i zwyciężaj czyli sortowanie metodą scalania
+__________________________________________________________________________________________________________
+T:Raz krócej raz dłużej czyli sortowanie kubełkowe
+
+2 5 4 4 3 9 1 8 6 4 3
+wmin=1
+wmax=9
+wmax-wmin+1= 9-1+1=9
+[1] [2] [3] [4] [5][6] [7] [8] [9]
+[1:0] [2:0] [3:0] [4:0] [5:0] [6:0] [7:0] [8:0] [9:0]
+{2 5 4 4 3 9 1 8 6 4 3}
+[1:1] [2:1] [3:2] [4:3] [5:1] [6:1] [7:0] [8:1] [9:1]
+{1 2 3 3 4 4 4 5 6 8 9}
+0 5 4 3 4 3 1 1 0 0
+wmin= 0 
+wmax=5
+[0] [1] [2] [3] [4] [5]
+[0:0] [1:0] [2:0] [3:0] [4:0] [5:0]
+{0 5 4 3 4 3 1 1 0 0}
+[0:3] [1:2] [3:2] [4:2] [5:1]
+{0 0 0 1 1 3 3 4 4 5}
+______________________________________________
+[wK: sL]
+wK- wartość kubełka
+sL- stan licznika
+__________________________________________________
+1 5 3 7 10 4 100
+w min=1
+w max= 100
+wmax-wmin+1= 100-1+1=100
+[1:0] [2:0] [3:0] [4:0] [5:0] [6:0] [7:0] [8:0] [9:0] [10:0] ... [100:0]
+[1:1] [2:0] [3:1] [4:1] [5:1] [6:0] [7:1] [8:0] [9:0] [10:1]... [100:1]
+{1 3 4 5 7 10 100}
+________________________________________________________________________________
+T:Nie wszystko jest takie oczywiste, czyli jak działa internet.
+Internet jest to sieć rozległa łącząca mniejsze sieci umożliwiająca wymianę danych między użytkownikami.
+Sieć globalna WAN(Wide Area Network) jest to sieć komputerowa znajdująca się na obszarze  											
+poza miasto, kraj lub kontynent
+Sieć lokalna LAN- jest to sieć komputerowa łącząca komputery na określonym obszarze (blok,szkoła,biuro)
+Wyróżniamy dwa podstawowe urządzenia sieciowe-switch i router
+Przełącznik służy do połączenia urządzeń i urzytkowników znajdujących się w sieci LAN
+Router umożliwia połączenie sieci LAN z siecią WAN (siecią od dostawcy)
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Podstawowe protokoły komunikacyjne
+-IP(Internet Protocol)-odpowiedzialne za wybór trasy i przesłanie informacji w postaci pakietów
+-TCP(Transmission Control Protocol)-zapewnia bezpieczne przesyłanie danych, potwierdza odebrane dane i zapewnia kontrole poprwanosci i przesylania
+-DHCP(Dynamic Host Control Protocol)-urządzenie zarządzające siecia moze przyznawac uzytkowniką i urzadzenia adresy dynamiczne(za każdym razem, gdy host loguje sie do sieci, otrzymuje pierwszy wolny adres sieciowy dostępny z puli
+adresów ip) i statyczne(adres sieciowy przydzielony pewnemu hostowi na stałe)
+ICANN instytucja odpowidzialna za przyznawanie nazw domen internetowychch oraz za nadzór nad działaniem serwerów DNS na całym świecie
+RIPE-udostępnia adresy sieciowe poszczególnym państwom w Europie 
+NASK-pełni funkcję rejestru domen internetowych(.pl) oraz oferuje usługi teleinformatyczne
+Lokalni dostawcy internetu(Pulnet)
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+T:Sieć to nie tylko internet, czyli poznajemy topologię sieci komputerowych.
+Wyróżniamy topolgie fizyczne i logiczne sieci
+Topologia fizyczna określa, w jaki sposób urządzenia i hosty są ze sobą połączone.Topologia logiczna określa sposób przesyłania danych między urządzeniami 
+sieciowymi i hostami
+Wyróżniamy następujące topologie fizyczne:
+- topologia magistrali(ang.bus)
+- topologia pierścienia(ang.ring)
+- topologia gwiazdy(ang.star)
+Topologia magistrali charakteryzuje się tym, że wszystkie urządzenia są podłączane do wspólnego medium transmisyjnego(kabel koncentryczny).
+Zalety:
+- niewielki koszt drożenia(brak urządzeń dostępowych)
+Wady:
+- mała przepustowość
+- podatność na awarie(przerwanie magistrali powoduje brak dostępu do internetu).
+Topologia fizyczna pierścienia- każde urządzenie podłączone jest dwoma sąsiadami tworząc zamknięty okrąg
+Zalety:
+- stosowanie małej ilości okablowania
+- niewielki koszt wdrożenia
+Wady:
+- podatność na awarie
+- przerwanie medium transmisyjnego lub awaria hosta spowoduje brak dostępu do intetrnetu
+W topologi gwiazdy urządzenia podłączone są do centralnego punktu,stanowiącego punkt dosepu do sieci(router albo switch)
+Zalety:
+-prosta w zaprojektowaniu
+-łatwa administracja siecią
+-odporna na awarie
+Wady:
+-koszt rozbudowy sieci(wymagane dodatkowe urządzenia)
+-ilość hostów z dostępem do internetu(przewodowo zależna od urządzeń sieciowych)
+Topologia gwiazdy rozszerzonej
+Zalety:
+-możliwość łączenia ze sobą mniejszych sieci
+-ograniczenie liczby kabli między głównym przełącznikiem a znacznie oddalonymi grupami komputeró i urządzeń
+Wady:
+-konieczność rozbudowy infrastruktury o dodatkowe urządzenia
+-zwiększenie poboru energii przez infrastrukture
+-konieczność przygotowania odpowiednich miejsc na dodatkowe przełączniki
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
