@@ -378,26 +378,26 @@ Lokalni dostawcy internetu(Pulnet)
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 T:Sieć to nie tylko internet, czyli poznajemy topologię sieci komputerowych.
 Wyróżniamy topolgie fizyczne i logiczne sieci
-Topologia fizyczna określa, w jaki sposób urządzenia i hosty są ze sobą połączone.Topologia logiczna określa sposób przesyłania danych między urządzeniami 
+	Topologia fizyczna określa, w jaki sposób urządzenia i hosty są ze sobą połączone.Topologia logiczna określa sposób przesyłania danych między urządzeniami 
 sieciowymi i hostami
 Wyróżniamy następujące topologie fizyczne:
 - topologia magistrali(ang.bus)
 - topologia pierścienia(ang.ring)
 - topologia gwiazdy(ang.star)
-Topologia magistrali charakteryzuje się tym, że wszystkie urządzenia są podłączane do wspólnego medium transmisyjnego(kabel koncentryczny).
+	Topologia magistrali charakteryzuje się tym, że wszystkie urządzenia są podłączane do wspólnego medium 			transmisyjnego(kabel koncentryczny).
 Zalety:
 - niewielki koszt drożenia(brak urządzeń dostępowych)
 Wady:
 - mała przepustowość
 - podatność na awarie(przerwanie magistrali powoduje brak dostępu do internetu).
-Topologia fizyczna pierścienia- każde urządzenie podłączone jest dwoma sąsiadami tworząc zamknięty okrąg
+	Topologia fizyczna pierścienia- każde urządzenie podłączone jest dwoma sąsiadami tworząc zamknięty okrąg
 Zalety:
 - stosowanie małej ilości okablowania
 - niewielki koszt wdrożenia
 Wady:
 - podatność na awarie
 - przerwanie medium transmisyjnego lub awaria hosta spowoduje brak dostępu do intetrnetu
-W topologi gwiazdy urządzenia podłączone są do centralnego punktu,stanowiącego punkt dosepu do sieci(router albo switch)
+	W topologi gwiazdy urządzenia podłączone są do centralnego punktu,stanowiącego punkt dosepu do sieci(router albo switch)
 Zalety:
 -prosta w zaprojektowaniu
 -łatwa administracja siecią
@@ -405,7 +405,7 @@ Zalety:
 Wady:
 -koszt rozbudowy sieci(wymagane dodatkowe urządzenia)
 -ilość hostów z dostępem do internetu(przewodowo zależna od urządzeń sieciowych)
-Topologia gwiazdy rozszerzonej
+	Topologia gwiazdy rozszerzonej
 Zalety:
 -możliwość łączenia ze sobą mniejszych sieci
 -ograniczenie liczby kabli między głównym przełącznikiem a znacznie oddalonymi grupami komputeró i urządzeń
@@ -413,6 +413,11 @@ Wady:
 -konieczność rozbudowy infrastruktury o dodatkowe urządzenia
 -zwiększenie poboru energii przez infrastrukture
 -konieczność przygotowania odpowiednich miejsc na dodatkowe przełączniki
+	Topologia p2p(peer-to-peer)
+Topologie logiczne
+-topologia punkt punkt dane przesuwane są od jednego urządzenia do drugiego bezpośrednio np. komputer z przełącznikiem lub pośrednio np.dwa routery.Topologię punkt-punkt wykorzystuje się w topologii fizycznej gwiazdy
+-topologia logiczna przekazywania żetonu(token passing) dane przekazywane są kolejno do urządzeń połączonych w sieć.Urządzenia, które otrzyma porcję dancyh, analizuje czy sa one kierowane do niego czy tez nie. Jesli dane nie sa do niego adresowane, przekazuje je dalej, do sasiedniego urzadzenia.W taki sposob, dane przesylane sa przez wszystkie urzadzenia wystepujacy pomiedzy urzazeniem zrodlowym, a docelowym.s
+
 
 
 
